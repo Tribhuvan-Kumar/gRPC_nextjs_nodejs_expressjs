@@ -1,0 +1,64 @@
+# -------------------------
+# Global
+# -------------------------
+node_modules/
+.env
+.env.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.DS_Store
+
+# Ignore local editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+
+# -------------------------
+# Next.js (client)
+# -------------------------
+client/.next/
+client/out/
+client/.vercel/
+client/coverage/
+client/.turbo/
+client/next-env.d.ts
+
+# If using Next.js cache
+client/.cache/
+
+# -------------------------
+# Node + Express (server)
+# -------------------------
+server/node_modules/
+server/.env
+server/.env.*
+server/logs/
+server/tmp/
+server/coverage/
+
+# PM2 logs
+server/pids
+server/*.pid
+server/*.seed
+server/*.pid.lock
+
+# TypeScript build (if using TS)
+server/dist/
+server/build/
+
+# -------------------------
+# Misc
+# -------------------------
+
+# lock files (optional based on your preference)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
